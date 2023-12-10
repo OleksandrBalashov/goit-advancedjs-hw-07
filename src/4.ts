@@ -6,10 +6,8 @@ class Key {
   }
 }
 
-class Person extends Key {
-  constructor(private key: Key) {
-    super();
-  }
+class Person {
+  constructor(private key: Key) {}
 
   getKey() {
     return this.key;
